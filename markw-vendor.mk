@@ -828,7 +828,6 @@ PRODUCT_PACKAGES += \
     libssd \
     libsystem_health_mon \
     libthermalclient \
-    libthermalfeature \
     libtime_genoff \
     libwms \
     libwqe \
