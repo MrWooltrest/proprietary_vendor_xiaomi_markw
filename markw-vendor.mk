@@ -24,26 +24,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/xiaomi/markw/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/xiaomi/markw/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/xiaomi/markw/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
     vendor/xiaomi/markw/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/imx258_bear_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_bear_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/imx258_mono_bear_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_mono_bear_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/imx258_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_mono_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/imx258_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_ofilm_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/imx258_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_qtech_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/imx258_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_sunny_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/ov13855_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13855_qtech_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/s5k3l8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_chromatix.xml \
+    vendor/xiaomi/markw/proprietary/vendor/etc/camera/msm8953_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8953_camera.xml \
+    vendor/xiaomi/markw/proprietary/vendor/etc/camera/ofilm_s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ofilm_s5k3l8_f3l8yam_chromatix.xml \
+    vendor/xiaomi/markw/proprietary/vendor/etc/camera/ov5670_f5670bq_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5670_f5670bq_chromatix.xml \
+    vendor/xiaomi/markw/proprietary/vendor/etc/camera/qtech_ov5670_f5670bq_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/qtech_ov5670_f5670bq_chromatix.xml \
+    vendor/xiaomi/markw/proprietary/vendor/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml \
     vendor/xiaomi/markw/proprietary/vendor/etc/camera/s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/s5k3l8_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_mono_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/s5k3l8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_ofilm_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/s5k3l8_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_qtech_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/s5k3l8_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_sunny_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_ofilm_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/s5k5e8_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_qtech_chromatix.xml \
-    vendor/xiaomi/markw/proprietary/vendor/etc/camera/s5k5e8_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_sunny_chromatix.xml \
+    vendor/xiaomi/markw/proprietary/vendor/etc/camera/s5k5e8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_chromatix.xml \
+    vendor/xiaomi/markw/proprietary/vendor/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml \
     vendor/xiaomi/markw/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/xiaomi/markw/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/xiaomi/markw/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
@@ -151,14 +141,9 @@ PRODUCT_PACKAGES += \
     sensors.ssc \
     vendor.qti.hardware.dsp@1.0 \
     libChamomilePA \
+    libactuator_bu64244gwz \
+    libactuator_bu64291gwz \
     libactuator_dw9763 \
-    libactuator_dw9763_ofilm_imx258 \
-    libactuator_dw9763_qtech_imx258 \
-    libactuator_dw9763_qtech_ov13855 \
-    libactuator_dw9763_sunny_imx258 \
-    libactuator_lc898212xd_qc2002 \
-    libactuator_ofilm_dw9763 \
-    libactuator_pseudo \
     libadm \
     libadpcmdec \
     libcapiv2svacnn \
@@ -169,225 +154,106 @@ PRODUCT_PACKAGES += \
     libchromatix_csidtg_postproc \
     libchromatix_csidtg_preview \
     libchromatix_csidtg_zsl_preview \
-    libchromatix_imx258_4k_preview_3a \
-    libchromatix_imx258_4k_video_3a \
-    libchromatix_imx258_bear_4k_preview_lc898217xc \
-    libchromatix_imx258_bear_4k_video_lc898217xc \
-    libchromatix_imx258_bear_common \
-    libchromatix_imx258_bear_cpp_hfr_120 \
-    libchromatix_imx258_bear_cpp_hfr_60 \
-    libchromatix_imx258_bear_cpp_hfr_90 \
-    libchromatix_imx258_bear_cpp_liveshot \
-    libchromatix_imx258_bear_cpp_preview \
-    libchromatix_imx258_bear_cpp_snapshot \
-    libchromatix_imx258_bear_cpp_video \
-    libchromatix_imx258_bear_cpp_video_4k \
-    libchromatix_imx258_bear_default_preview_lc898217xc \
-    libchromatix_imx258_bear_default_video \
-    libchromatix_imx258_bear_default_video_lc898217xc \
-    libchromatix_imx258_bear_hfr_120 \
-    libchromatix_imx258_bear_hfr_120_lc898217xc \
-    libchromatix_imx258_bear_hfr_60 \
-    libchromatix_imx258_bear_hfr_60_lc898217xc \
-    libchromatix_imx258_bear_hfr_90 \
-    libchromatix_imx258_bear_hfr_90_lc898217xc \
-    libchromatix_imx258_bear_postproc \
-    libchromatix_imx258_bear_preview \
-    libchromatix_imx258_bear_snapshot \
-    libchromatix_imx258_bear_video_4k \
-    libchromatix_imx258_bear_zsl_preview_lc898217xc \
-    libchromatix_imx258_bear_zsl_video_lc898217xc \
-    libchromatix_imx258_common \
-    libchromatix_imx258_cpp_hfr_120 \
-    libchromatix_imx258_cpp_hfr_60 \
-    libchromatix_imx258_cpp_hfr_90 \
-    libchromatix_imx258_cpp_liveshot \
-    libchromatix_imx258_cpp_preview \
-    libchromatix_imx258_cpp_snapshot \
-    libchromatix_imx258_cpp_video \
-    libchromatix_imx258_cpp_video_4k \
-    libchromatix_imx258_default_preview_3a \
-    libchromatix_imx258_default_video \
-    libchromatix_imx258_default_video_3a \
-    libchromatix_imx258_hfr_120 \
-    libchromatix_imx258_hfr_120_3a \
-    libchromatix_imx258_hfr_60 \
-    libchromatix_imx258_hfr_60_3a \
-    libchromatix_imx258_hfr_90 \
-    libchromatix_imx258_hfr_90_3a \
-    libchromatix_imx258_mono_4k_preview_3a \
-    libchromatix_imx258_mono_4k_video_3a \
-    libchromatix_imx258_mono_bear_4k_preview_lc898217xc \
-    libchromatix_imx258_mono_bear_4k_video_lc898217xc \
-    libchromatix_imx258_mono_bear_common \
-    libchromatix_imx258_mono_bear_cpp_hfr_120 \
-    libchromatix_imx258_mono_bear_cpp_hfr_60 \
-    libchromatix_imx258_mono_bear_cpp_hfr_90 \
-    libchromatix_imx258_mono_bear_cpp_liveshot \
-    libchromatix_imx258_mono_bear_cpp_preview \
-    libchromatix_imx258_mono_bear_cpp_snapshot \
-    libchromatix_imx258_mono_bear_cpp_video \
-    libchromatix_imx258_mono_bear_cpp_video_4k \
-    libchromatix_imx258_mono_bear_default_preview_lc898217xc \
-    libchromatix_imx258_mono_bear_default_video \
-    libchromatix_imx258_mono_bear_default_video_lc898217xc \
-    libchromatix_imx258_mono_bear_hfr_120 \
-    libchromatix_imx258_mono_bear_hfr_120_lc898217xc \
-    libchromatix_imx258_mono_bear_hfr_60 \
-    libchromatix_imx258_mono_bear_hfr_60_lc898217xc \
-    libchromatix_imx258_mono_bear_hfr_90 \
-    libchromatix_imx258_mono_bear_hfr_90_lc898217xc \
-    libchromatix_imx258_mono_bear_postproc \
-    libchromatix_imx258_mono_bear_preview \
-    libchromatix_imx258_mono_bear_snapshot \
-    libchromatix_imx258_mono_bear_video_4k \
-    libchromatix_imx258_mono_bear_zsl_preview_lc898217xc \
-    libchromatix_imx258_mono_bear_zsl_video_lc898217xc \
-    libchromatix_imx258_mono_common \
-    libchromatix_imx258_mono_cpp_hfr_120 \
-    libchromatix_imx258_mono_cpp_hfr_60 \
-    libchromatix_imx258_mono_cpp_hfr_90 \
-    libchromatix_imx258_mono_cpp_liveshot \
-    libchromatix_imx258_mono_cpp_preview \
-    libchromatix_imx258_mono_cpp_snapshot \
-    libchromatix_imx258_mono_cpp_video \
-    libchromatix_imx258_mono_cpp_video_4k \
-    libchromatix_imx258_mono_default_preview_3a \
-    libchromatix_imx258_mono_default_video \
-    libchromatix_imx258_mono_default_video_3a \
-    libchromatix_imx258_mono_hfr_120 \
-    libchromatix_imx258_mono_hfr_120_3a \
-    libchromatix_imx258_mono_hfr_60 \
-    libchromatix_imx258_mono_hfr_60_3a \
-    libchromatix_imx258_mono_hfr_90 \
-    libchromatix_imx258_mono_hfr_90_3a \
-    libchromatix_imx258_mono_postproc \
-    libchromatix_imx258_mono_preview \
-    libchromatix_imx258_mono_snapshot \
-    libchromatix_imx258_mono_video_4k \
-    libchromatix_imx258_mono_zsl_preview_3a \
-    libchromatix_imx258_mono_zsl_video_3a \
-    libchromatix_imx258_ofilm_4k_preview_dw9763 \
-    libchromatix_imx258_ofilm_4k_video_dw9763 \
-    libchromatix_imx258_ofilm_common \
-    libchromatix_imx258_ofilm_cpp_hfr_120 \
-    libchromatix_imx258_ofilm_cpp_hfr_60 \
-    libchromatix_imx258_ofilm_cpp_hfr_90 \
-    libchromatix_imx258_ofilm_cpp_liveshot \
-    libchromatix_imx258_ofilm_cpp_preview \
-    libchromatix_imx258_ofilm_cpp_snapshot \
-    libchromatix_imx258_ofilm_cpp_video \
-    libchromatix_imx258_ofilm_cpp_video_4k \
-    libchromatix_imx258_ofilm_default_preview_dw9763 \
-    libchromatix_imx258_ofilm_default_video \
-    libchromatix_imx258_ofilm_default_video_dw9763 \
-    libchromatix_imx258_ofilm_hfr_120 \
-    libchromatix_imx258_ofilm_hfr_120_dw9763 \
-    libchromatix_imx258_ofilm_hfr_60 \
-    libchromatix_imx258_ofilm_hfr_60_dw9763 \
-    libchromatix_imx258_ofilm_hfr_90 \
-    libchromatix_imx258_ofilm_hfr_90_dw9763 \
-    libchromatix_imx258_ofilm_liveshot \
-    libchromatix_imx258_ofilm_postproc \
-    libchromatix_imx258_ofilm_preview \
-    libchromatix_imx258_ofilm_snapshot \
-    libchromatix_imx258_ofilm_video_4k \
-    libchromatix_imx258_ofilm_zsl_preview_dw9763 \
-    libchromatix_imx258_ofilm_zsl_video_dw9763 \
-    libchromatix_imx258_postproc \
-    libchromatix_imx258_preview \
-    libchromatix_imx258_qtech_4k_preview_dw9763 \
-    libchromatix_imx258_qtech_4k_video_dw9763 \
-    libchromatix_imx258_qtech_common \
-    libchromatix_imx258_qtech_cpp_hfr_120 \
-    libchromatix_imx258_qtech_cpp_hfr_60 \
-    libchromatix_imx258_qtech_cpp_hfr_90 \
-    libchromatix_imx258_qtech_cpp_liveshot \
-    libchromatix_imx258_qtech_cpp_preview \
-    libchromatix_imx258_qtech_cpp_snapshot \
-    libchromatix_imx258_qtech_cpp_video \
-    libchromatix_imx258_qtech_cpp_video_4k \
-    libchromatix_imx258_qtech_default_preview_dw9763 \
-    libchromatix_imx258_qtech_default_video \
-    libchromatix_imx258_qtech_default_video_dw9763 \
-    libchromatix_imx258_qtech_hfr_120 \
-    libchromatix_imx258_qtech_hfr_120_dw9763 \
-    libchromatix_imx258_qtech_hfr_60 \
-    libchromatix_imx258_qtech_hfr_60_dw9763 \
-    libchromatix_imx258_qtech_hfr_90 \
-    libchromatix_imx258_qtech_hfr_90_dw9763 \
-    libchromatix_imx258_qtech_liveshot \
-    libchromatix_imx258_qtech_postproc \
-    libchromatix_imx258_qtech_preview \
-    libchromatix_imx258_qtech_snapshot \
-    libchromatix_imx258_qtech_video_4k \
-    libchromatix_imx258_qtech_zsl_preview_dw9763 \
-    libchromatix_imx258_qtech_zsl_video_dw9763 \
-    libchromatix_imx258_snapshot \
-    libchromatix_imx258_sunny_4k_preview_dw9763 \
-    libchromatix_imx258_sunny_4k_video_dw9763 \
-    libchromatix_imx258_sunny_common \
-    libchromatix_imx258_sunny_cpp_hfr_120 \
-    libchromatix_imx258_sunny_cpp_hfr_60 \
-    libchromatix_imx258_sunny_cpp_hfr_90 \
-    libchromatix_imx258_sunny_cpp_liveshot \
-    libchromatix_imx258_sunny_cpp_preview \
-    libchromatix_imx258_sunny_cpp_snapshot \
-    libchromatix_imx258_sunny_cpp_video \
-    libchromatix_imx258_sunny_cpp_video_4k \
-    libchromatix_imx258_sunny_default_preview_dw9763 \
-    libchromatix_imx258_sunny_default_video \
-    libchromatix_imx258_sunny_default_video_dw9763 \
-    libchromatix_imx258_sunny_hfr_120 \
-    libchromatix_imx258_sunny_hfr_120_dw9763 \
-    libchromatix_imx258_sunny_hfr_60 \
-    libchromatix_imx258_sunny_hfr_60_dw9763 \
-    libchromatix_imx258_sunny_hfr_90 \
-    libchromatix_imx258_sunny_hfr_90_dw9763 \
-    libchromatix_imx258_sunny_liveshot \
-    libchromatix_imx258_sunny_postproc \
-    libchromatix_imx258_sunny_preview \
-    libchromatix_imx258_sunny_snapshot \
-    libchromatix_imx258_sunny_video_4k \
-    libchromatix_imx258_sunny_zsl_preview_dw9763 \
-    libchromatix_imx258_sunny_zsl_video_dw9763 \
-    libchromatix_imx258_video_4k \
-    libchromatix_imx258_zsl_preview_3a \
-    libchromatix_imx258_zsl_video_3a \
-    libchromatix_ov13855_qtech_common \
-    libchromatix_ov13855_qtech_cpp_hfr_120 \
-    libchromatix_ov13855_qtech_cpp_hfr_60 \
-    libchromatix_ov13855_qtech_cpp_hfr_90 \
-    libchromatix_ov13855_qtech_cpp_liveshot \
-    libchromatix_ov13855_qtech_cpp_preview \
-    libchromatix_ov13855_qtech_cpp_snapshot \
-    libchromatix_ov13855_qtech_cpp_video \
-    libchromatix_ov13855_qtech_default_preview_dw9763 \
-    libchromatix_ov13855_qtech_default_video_dw9763 \
-    libchromatix_ov13855_qtech_hfr_120 \
-    libchromatix_ov13855_qtech_hfr_120_dw9763 \
-    libchromatix_ov13855_qtech_hfr_60 \
-    libchromatix_ov13855_qtech_hfr_60_dw9763 \
-    libchromatix_ov13855_qtech_hfr_90 \
-    libchromatix_ov13855_qtech_hfr_90_dw9763 \
-    libchromatix_ov13855_qtech_liveshot \
-    libchromatix_ov13855_qtech_postproc \
-    libchromatix_ov13855_qtech_preview \
-    libchromatix_ov13855_qtech_snapshot \
-    libchromatix_ov13855_qtech_video \
-    libchromatix_ov13855_qtech_zsl_preview_dw9763 \
-    libchromatix_ov13855_qtech_zsl_video_dw9763 \
-    libchromatix_s5k3l8_common \
-    libchromatix_s5k3l8_cpp_hfr_120 \
-    libchromatix_s5k3l8_cpp_hfr_60 \
-    libchromatix_s5k3l8_cpp_hfr_90 \
-    libchromatix_s5k3l8_cpp_liveshot \
-    libchromatix_s5k3l8_cpp_preview \
-    libchromatix_s5k3l8_cpp_snapshot \
-    libchromatix_s5k3l8_cpp_video \
-    libchromatix_s5k3l8_default_preview_ak7345 \
-    libchromatix_s5k3l8_default_video \
-    libchromatix_s5k3l8_default_video_ak7345 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_common \
+    libchromatix_ofilm_s5k3l8_f3l8yam_cpp_hfr_120 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_cpp_hfr_60 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_cpp_hfr_90 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_cpp_liveshot \
+    libchromatix_ofilm_s5k3l8_f3l8yam_cpp_preview \
+    libchromatix_ofilm_s5k3l8_f3l8yam_cpp_snapshot \
+    libchromatix_ofilm_s5k3l8_f3l8yam_cpp_video \
+    libchromatix_ofilm_s5k3l8_f3l8yam_default_preview_dw9763 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_default_video \
+    libchromatix_ofilm_s5k3l8_f3l8yam_default_video_dw9763 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_hfr_120 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_hfr_120_dw9763 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_hfr_60 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_hfr_60_dw9763 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_hfr_90 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_hfr_90_dw9763 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_liveshot \
+    libchromatix_ofilm_s5k3l8_f3l8yam_postproc \
+    libchromatix_ofilm_s5k3l8_f3l8yam_preview \
+    libchromatix_ofilm_s5k3l8_f3l8yam_snapshot \
+    libchromatix_ofilm_s5k3l8_f3l8yam_zsl_preview_dw9763 \
+    libchromatix_ofilm_s5k3l8_f3l8yam_zsl_video_dw9763 \
+    libchromatix_ov5670_f5670bq_a3_default_preview \
+    libchromatix_ov5670_f5670bq_a3_default_video \
+    libchromatix_ov5670_f5670bq_a3_hfr_120 \
+    libchromatix_ov5670_f5670bq_a3_hfr_60 \
+    libchromatix_ov5670_f5670bq_a3_hfr_90 \
+    libchromatix_ov5670_f5670bq_common \
+    libchromatix_ov5670_f5670bq_cpp_ds_chromatix \
+    libchromatix_ov5670_f5670bq_cpp_hfr_120 \
+    libchromatix_ov5670_f5670bq_cpp_hfr_60 \
+    libchromatix_ov5670_f5670bq_cpp_hfr_90 \
+    libchromatix_ov5670_f5670bq_cpp_liveshot \
+    libchromatix_ov5670_f5670bq_cpp_preview \
+    libchromatix_ov5670_f5670bq_cpp_snapshot \
+    libchromatix_ov5670_f5670bq_cpp_us_chromatix \
+    libchromatix_ov5670_f5670bq_cpp_video \
+    libchromatix_ov5670_f5670bq_cpp_video_full \
+    libchromatix_ov5670_f5670bq_default_video \
+    libchromatix_ov5670_f5670bq_hfr_120 \
+    libchromatix_ov5670_f5670bq_hfr_60 \
+    libchromatix_ov5670_f5670bq_hfr_90 \
+    libchromatix_ov5670_f5670bq_liveshot \
+    libchromatix_ov5670_f5670bq_postproc \
+    libchromatix_ov5670_f5670bq_preview \
+    libchromatix_ov5670_f5670bq_snapshot \
+    libchromatix_ov5670_f5670bq_video_full \
+    libchromatix_ov5670_f5670bq_zsl_preview \
+    libchromatix_ov5670_f5670bq_zsl_video \
+    libchromatix_qtech_ov5670_f5670bq_a3_default_preview \
+    libchromatix_qtech_ov5670_f5670bq_a3_default_video \
+    libchromatix_qtech_ov5670_f5670bq_a3_hfr_120 \
+    libchromatix_qtech_ov5670_f5670bq_a3_hfr_60 \
+    libchromatix_qtech_ov5670_f5670bq_a3_hfr_90 \
+    libchromatix_qtech_ov5670_f5670bq_common \
+    libchromatix_qtech_ov5670_f5670bq_cpp_ds_chromatix \
+    libchromatix_qtech_ov5670_f5670bq_cpp_hfr_120 \
+    libchromatix_qtech_ov5670_f5670bq_cpp_hfr_60 \
+    libchromatix_qtech_ov5670_f5670bq_cpp_hfr_90 \
+    libchromatix_qtech_ov5670_f5670bq_cpp_liveshot \
+    libchromatix_qtech_ov5670_f5670bq_cpp_preview \
+    libchromatix_qtech_ov5670_f5670bq_cpp_snapshot \
+    libchromatix_qtech_ov5670_f5670bq_cpp_us_chromatix \
+    libchromatix_qtech_ov5670_f5670bq_cpp_video \
+    libchromatix_qtech_ov5670_f5670bq_cpp_video_full \
+    libchromatix_qtech_ov5670_f5670bq_default_video \
+    libchromatix_qtech_ov5670_f5670bq_hfr_120 \
+    libchromatix_qtech_ov5670_f5670bq_hfr_60 \
+    libchromatix_qtech_ov5670_f5670bq_hfr_90 \
+    libchromatix_qtech_ov5670_f5670bq_liveshot \
+    libchromatix_qtech_ov5670_f5670bq_postproc \
+    libchromatix_qtech_ov5670_f5670bq_preview \
+    libchromatix_qtech_ov5670_f5670bq_snapshot \
+    libchromatix_qtech_ov5670_f5670bq_video_full \
+    libchromatix_qtech_ov5670_f5670bq_zsl_preview \
+    libchromatix_qtech_ov5670_f5670bq_zsl_video \
+    libchromatix_qtech_s5k3l8_f3l8yam_common \
+    libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_120 \
+    libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_60 \
+    libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_90 \
+    libchromatix_qtech_s5k3l8_f3l8yam_cpp_liveshot \
+    libchromatix_qtech_s5k3l8_f3l8yam_cpp_preview \
+    libchromatix_qtech_s5k3l8_f3l8yam_cpp_snapshot \
+    libchromatix_qtech_s5k3l8_f3l8yam_cpp_video \
+    libchromatix_qtech_s5k3l8_f3l8yam_default_preview_dw9763 \
+    libchromatix_qtech_s5k3l8_f3l8yam_default_video \
+    libchromatix_qtech_s5k3l8_f3l8yam_default_video_dw9763 \
+    libchromatix_qtech_s5k3l8_f3l8yam_hfr_120 \
+    libchromatix_qtech_s5k3l8_f3l8yam_hfr_120_dw9763 \
+    libchromatix_qtech_s5k3l8_f3l8yam_hfr_60 \
+    libchromatix_qtech_s5k3l8_f3l8yam_hfr_60_dw9763 \
+    libchromatix_qtech_s5k3l8_f3l8yam_hfr_90 \
+    libchromatix_qtech_s5k3l8_f3l8yam_hfr_90_dw9763 \
+    libchromatix_qtech_s5k3l8_f3l8yam_liveshot \
+    libchromatix_qtech_s5k3l8_f3l8yam_postproc \
+    libchromatix_qtech_s5k3l8_f3l8yam_preview \
+    libchromatix_qtech_s5k3l8_f3l8yam_snapshot \
+    libchromatix_qtech_s5k3l8_f3l8yam_zsl_preview_dw9763 \
+    libchromatix_qtech_s5k3l8_f3l8yam_zsl_video_dw9763 \
     libchromatix_s5k3l8_f3l8yam_common \
     libchromatix_s5k3l8_f3l8yam_cpp_hfr_120 \
     libchromatix_s5k3l8_f3l8yam_cpp_hfr_60 \
@@ -411,174 +277,49 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k3l8_f3l8yam_snapshot \
     libchromatix_s5k3l8_f3l8yam_zsl_preview_dw9763 \
     libchromatix_s5k3l8_f3l8yam_zsl_video_dw9763 \
-    libchromatix_s5k3l8_hfr_120 \
-    libchromatix_s5k3l8_hfr_120_ak7345 \
-    libchromatix_s5k3l8_hfr_60 \
-    libchromatix_s5k3l8_hfr_60_ak7345 \
-    libchromatix_s5k3l8_hfr_90 \
-    libchromatix_s5k3l8_hfr_90_ak7345 \
-    libchromatix_s5k3l8_mono_common \
-    libchromatix_s5k3l8_mono_cpp_hfr_120 \
-    libchromatix_s5k3l8_mono_cpp_hfr_60 \
-    libchromatix_s5k3l8_mono_cpp_hfr_90 \
-    libchromatix_s5k3l8_mono_cpp_liveshot \
-    libchromatix_s5k3l8_mono_cpp_preview \
-    libchromatix_s5k3l8_mono_cpp_snapshot \
-    libchromatix_s5k3l8_mono_cpp_video \
-    libchromatix_s5k3l8_mono_default_preview_ak7345 \
-    libchromatix_s5k3l8_mono_default_video \
-    libchromatix_s5k3l8_mono_default_video_ak7345 \
-    libchromatix_s5k3l8_mono_hfr_120 \
-    libchromatix_s5k3l8_mono_hfr_120_ak7345 \
-    libchromatix_s5k3l8_mono_hfr_60 \
-    libchromatix_s5k3l8_mono_hfr_60_ak7345 \
-    libchromatix_s5k3l8_mono_hfr_90 \
-    libchromatix_s5k3l8_mono_hfr_90_ak7345 \
-    libchromatix_s5k3l8_mono_postproc \
-    libchromatix_s5k3l8_mono_preview \
-    libchromatix_s5k3l8_mono_snapshot \
-    libchromatix_s5k3l8_mono_zsl_preview_ak7345 \
-    libchromatix_s5k3l8_mono_zsl_video_ak7345 \
-    libchromatix_s5k3l8_ofilm_common \
-    libchromatix_s5k3l8_ofilm_cpp_hfr_120 \
-    libchromatix_s5k3l8_ofilm_cpp_hfr_60 \
-    libchromatix_s5k3l8_ofilm_cpp_hfr_90 \
-    libchromatix_s5k3l8_ofilm_cpp_liveshot \
-    libchromatix_s5k3l8_ofilm_cpp_preview \
-    libchromatix_s5k3l8_ofilm_cpp_snapshot \
-    libchromatix_s5k3l8_ofilm_cpp_video \
-    libchromatix_s5k3l8_ofilm_default_preview_dw9763 \
-    libchromatix_s5k3l8_ofilm_default_video \
-    libchromatix_s5k3l8_ofilm_default_video_dw9763 \
-    libchromatix_s5k3l8_ofilm_hfr_120 \
-    libchromatix_s5k3l8_ofilm_hfr_120_dw9763 \
-    libchromatix_s5k3l8_ofilm_hfr_60 \
-    libchromatix_s5k3l8_ofilm_hfr_60_dw9763 \
-    libchromatix_s5k3l8_ofilm_hfr_90 \
-    libchromatix_s5k3l8_ofilm_hfr_90_dw9763 \
-    libchromatix_s5k3l8_ofilm_postproc \
-    libchromatix_s5k3l8_ofilm_preview \
-    libchromatix_s5k3l8_ofilm_snapshot \
-    libchromatix_s5k3l8_ofilm_zsl_preview_dw9763 \
-    libchromatix_s5k3l8_ofilm_zsl_video_dw9763 \
-    libchromatix_s5k3l8_postproc \
-    libchromatix_s5k3l8_preview \
-    libchromatix_s5k3l8_qtech_common \
-    libchromatix_s5k3l8_qtech_cpp_hfr_120 \
-    libchromatix_s5k3l8_qtech_cpp_hfr_60 \
-    libchromatix_s5k3l8_qtech_cpp_hfr_90 \
-    libchromatix_s5k3l8_qtech_cpp_liveshot \
-    libchromatix_s5k3l8_qtech_cpp_preview \
-    libchromatix_s5k3l8_qtech_cpp_snapshot \
-    libchromatix_s5k3l8_qtech_cpp_video \
-    libchromatix_s5k3l8_qtech_default_preview_dw9763 \
-    libchromatix_s5k3l8_qtech_default_video \
-    libchromatix_s5k3l8_qtech_default_video_dw9763 \
-    libchromatix_s5k3l8_qtech_hfr_120 \
-    libchromatix_s5k3l8_qtech_hfr_120_dw9763 \
-    libchromatix_s5k3l8_qtech_hfr_60 \
-    libchromatix_s5k3l8_qtech_hfr_60_dw9763 \
-    libchromatix_s5k3l8_qtech_hfr_90 \
-    libchromatix_s5k3l8_qtech_hfr_90_dw9763 \
-    libchromatix_s5k3l8_qtech_postproc \
-    libchromatix_s5k3l8_qtech_preview \
-    libchromatix_s5k3l8_qtech_snapshot \
-    libchromatix_s5k3l8_qtech_zsl_preview_dw9763 \
-    libchromatix_s5k3l8_qtech_zsl_video_dw9763 \
-    libchromatix_s5k3l8_snapshot \
-    libchromatix_s5k3l8_sunny_common \
-    libchromatix_s5k3l8_sunny_cpp_hfr_120 \
-    libchromatix_s5k3l8_sunny_cpp_hfr_60 \
-    libchromatix_s5k3l8_sunny_cpp_hfr_90 \
-    libchromatix_s5k3l8_sunny_cpp_liveshot \
-    libchromatix_s5k3l8_sunny_cpp_preview \
-    libchromatix_s5k3l8_sunny_cpp_snapshot \
-    libchromatix_s5k3l8_sunny_cpp_video \
-    libchromatix_s5k3l8_sunny_default_preview_dw9763 \
-    libchromatix_s5k3l8_sunny_default_video \
-    libchromatix_s5k3l8_sunny_default_video_dw9763 \
-    libchromatix_s5k3l8_sunny_hfr_120 \
-    libchromatix_s5k3l8_sunny_hfr_120_dw9763 \
-    libchromatix_s5k3l8_sunny_hfr_60 \
-    libchromatix_s5k3l8_sunny_hfr_60_dw9763 \
-    libchromatix_s5k3l8_sunny_hfr_90 \
-    libchromatix_s5k3l8_sunny_hfr_90_dw9763 \
-    libchromatix_s5k3l8_sunny_postproc \
-    libchromatix_s5k3l8_sunny_preview \
-    libchromatix_s5k3l8_sunny_snapshot \
-    libchromatix_s5k3l8_sunny_zsl_preview_dw9763 \
-    libchromatix_s5k3l8_sunny_zsl_video_dw9763 \
-    libchromatix_s5k3l8_zsl_preview_ak7345 \
-    libchromatix_s5k3l8_zsl_video_ak7345 \
-    libchromatix_s5k5e8_ofilm_common \
-    libchromatix_s5k5e8_ofilm_cpp_hfr_120 \
-    libchromatix_s5k5e8_ofilm_cpp_hfr_60 \
-    libchromatix_s5k5e8_ofilm_cpp_hfr_90 \
-    libchromatix_s5k5e8_ofilm_cpp_liveshot \
-    libchromatix_s5k5e8_ofilm_cpp_preview \
-    libchromatix_s5k5e8_ofilm_cpp_snapshot \
-    libchromatix_s5k5e8_ofilm_cpp_video \
-    libchromatix_s5k5e8_ofilm_default_preview_3a \
-    libchromatix_s5k5e8_ofilm_default_video \
-    libchromatix_s5k5e8_ofilm_default_video_3a \
-    libchromatix_s5k5e8_ofilm_hfr_120 \
-    libchromatix_s5k5e8_ofilm_hfr_120_3a \
-    libchromatix_s5k5e8_ofilm_hfr_60 \
-    libchromatix_s5k5e8_ofilm_hfr_60_3a \
-    libchromatix_s5k5e8_ofilm_hfr_90 \
-    libchromatix_s5k5e8_ofilm_hfr_90_3a \
-    libchromatix_s5k5e8_ofilm_liveshot \
-    libchromatix_s5k5e8_ofilm_postproc \
-    libchromatix_s5k5e8_ofilm_preview \
-    libchromatix_s5k5e8_ofilm_snapshot \
-    libchromatix_s5k5e8_ofilm_zsl_preview_3a \
-    libchromatix_s5k5e8_ofilm_zsl_video_3a \
-    libchromatix_s5k5e8_qtech_common \
-    libchromatix_s5k5e8_qtech_cpp_hfr_120 \
-    libchromatix_s5k5e8_qtech_cpp_hfr_60 \
-    libchromatix_s5k5e8_qtech_cpp_hfr_90 \
-    libchromatix_s5k5e8_qtech_cpp_liveshot \
-    libchromatix_s5k5e8_qtech_cpp_preview \
-    libchromatix_s5k5e8_qtech_cpp_snapshot \
-    libchromatix_s5k5e8_qtech_cpp_video \
-    libchromatix_s5k5e8_qtech_default_preview_3a \
-    libchromatix_s5k5e8_qtech_default_video \
-    libchromatix_s5k5e8_qtech_default_video_3a \
-    libchromatix_s5k5e8_qtech_hfr_120 \
-    libchromatix_s5k5e8_qtech_hfr_120_3a \
-    libchromatix_s5k5e8_qtech_hfr_60 \
-    libchromatix_s5k5e8_qtech_hfr_60_3a \
-    libchromatix_s5k5e8_qtech_hfr_90 \
-    libchromatix_s5k5e8_qtech_hfr_90_3a \
-    libchromatix_s5k5e8_qtech_liveshot \
-    libchromatix_s5k5e8_qtech_postproc \
-    libchromatix_s5k5e8_qtech_preview \
-    libchromatix_s5k5e8_qtech_snapshot \
-    libchromatix_s5k5e8_qtech_zsl_preview_3a \
-    libchromatix_s5k5e8_qtech_zsl_video_3a \
-    libchromatix_s5k5e8_sunny_common \
-    libchromatix_s5k5e8_sunny_cpp_hfr_120 \
-    libchromatix_s5k5e8_sunny_cpp_hfr_60 \
-    libchromatix_s5k5e8_sunny_cpp_hfr_90 \
-    libchromatix_s5k5e8_sunny_cpp_liveshot \
-    libchromatix_s5k5e8_sunny_cpp_preview \
-    libchromatix_s5k5e8_sunny_cpp_snapshot \
-    libchromatix_s5k5e8_sunny_cpp_video \
-    libchromatix_s5k5e8_sunny_default_preview_3a \
-    libchromatix_s5k5e8_sunny_default_video \
-    libchromatix_s5k5e8_sunny_default_video_3a \
-    libchromatix_s5k5e8_sunny_hfr_120 \
-    libchromatix_s5k5e8_sunny_hfr_120_3a \
-    libchromatix_s5k5e8_sunny_hfr_60 \
-    libchromatix_s5k5e8_sunny_hfr_60_3a \
-    libchromatix_s5k5e8_sunny_hfr_90 \
-    libchromatix_s5k5e8_sunny_hfr_90_3a \
-    libchromatix_s5k5e8_sunny_liveshot \
-    libchromatix_s5k5e8_sunny_postproc \
-    libchromatix_s5k5e8_sunny_preview \
-    libchromatix_s5k5e8_sunny_snapshot \
-    libchromatix_s5k5e8_sunny_zsl_preview_3a \
-    libchromatix_s5k5e8_sunny_zsl_video_3a \
+    libchromatix_s5k5e8_common \
+    libchromatix_s5k5e8_cpp_ds_chromatix \
+    libchromatix_s5k5e8_cpp_hfr_120 \
+    libchromatix_s5k5e8_cpp_hfr_60 \
+    libchromatix_s5k5e8_cpp_hfr_90 \
+    libchromatix_s5k5e8_cpp_liveshot \
+    libchromatix_s5k5e8_cpp_preview \
+    libchromatix_s5k5e8_cpp_snapshot \
+    libchromatix_s5k5e8_cpp_us_chromatix \
+    libchromatix_s5k5e8_cpp_video \
+    libchromatix_s5k5e8_default_video \
+    libchromatix_s5k5e8_hfr_120 \
+    libchromatix_s5k5e8_hfr_60 \
+    libchromatix_s5k5e8_hfr_90 \
+    libchromatix_s5k5e8_liveshot \
+    libchromatix_s5k5e8_postproc \
+    libchromatix_s5k5e8_preview \
+    libchromatix_s5k5e8_snapshot \
+    libchromatix_s5k5e8_zsl_preview \
+    libchromatix_s5k5e8_zsl_video \
+    libchromatix_sunny_s5k3l8_f3l8yam_common \
+    libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_120 \
+    libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_60 \
+    libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_90 \
+    libchromatix_sunny_s5k3l8_f3l8yam_cpp_liveshot \
+    libchromatix_sunny_s5k3l8_f3l8yam_cpp_preview \
+    libchromatix_sunny_s5k3l8_f3l8yam_cpp_snapshot \
+    libchromatix_sunny_s5k3l8_f3l8yam_cpp_video \
+    libchromatix_sunny_s5k3l8_f3l8yam_default_preview_dw9763 \
+    libchromatix_sunny_s5k3l8_f3l8yam_default_video \
+    libchromatix_sunny_s5k3l8_f3l8yam_default_video_dw9763 \
+    libchromatix_sunny_s5k3l8_f3l8yam_hfr_120 \
+    libchromatix_sunny_s5k3l8_f3l8yam_hfr_120_dw9763 \
+    libchromatix_sunny_s5k3l8_f3l8yam_hfr_60 \
+    libchromatix_sunny_s5k3l8_f3l8yam_hfr_60_dw9763 \
+    libchromatix_sunny_s5k3l8_f3l8yam_hfr_90 \
+    libchromatix_sunny_s5k3l8_f3l8yam_hfr_90_dw9763 \
+    libchromatix_sunny_s5k3l8_f3l8yam_liveshot \
+    libchromatix_sunny_s5k3l8_f3l8yam_postproc \
+    libchromatix_sunny_s5k3l8_f3l8yam_preview \
+    libchromatix_sunny_s5k3l8_f3l8yam_snapshot \
+    libchromatix_sunny_s5k3l8_f3l8yam_zsl_preview_dw9763 \
+    libchromatix_sunny_s5k3l8_f3l8yam_zsl_video_dw9763 \
     libdrc \
     libflash_pmic \
     libjpegdhw \
@@ -595,7 +336,6 @@ PRODUCT_PACKAGES += \
     libmmcamera2_is \
     libmmcamera2_isp_modules \
     libmmcamera2_mct \
-    libmmcamera2_mct_shimlayer \
     libmmcamera2_pp_buf_mgr \
     libmmcamera2_pproc_modules \
     libmmcamera2_q3a_core \
@@ -603,28 +343,20 @@ PRODUCT_PACKAGES += \
     libmmcamera2_stats_algorithm \
     libmmcamera2_stats_modules \
     libmmcamera_atmel_at24c32e_eeprom \
+    libmmcamera_cac3_lib \
     libmmcamera_chromaflash_lib \
     libmmcamera_csidtg \
     libmmcamera_dbg \
     libmmcamera_dcrf_lib \
     libmmcamera_dummyalgo \
     libmmcamera_dw9761b_2d_eeprom \
+    libmmcamera_dw9761b_eeprom \
     libmmcamera_eebinparse \
     libmmcamera_eeprom_util \
     libmmcamera_eztune_module \
-    libmmcamera_facedetection_lib \
     libmmcamera_faceproc \
-    libmmcamera_faceproc2 \
     libmmcamera_hdr_gb_lib \
     libmmcamera_imglib \
-    libmmcamera_imx258 \
-    libmmcamera_imx258_gt24c16_eeprom \
-    libmmcamera_imx258_gt24c32_eeprom \
-    libmmcamera_imx258_mono \
-    libmmcamera_imx258_mono_gt24c32_eeprom \
-    libmmcamera_imx258_ofilm \
-    libmmcamera_imx258_qtech \
-    libmmcamera_imx258_sunny \
     libmmcamera_isp_abf40 \
     libmmcamera_isp_bcc40 \
     libmmcamera_isp_be_stats44 \
@@ -662,55 +394,43 @@ PRODUCT_PACKAGES += \
     libmmcamera_le2464c_eeprom \
     libmmcamera_le2464c_master_eeprom \
     libmmcamera_llvd \
-    libmmcamera_ofilm_imx258_eeprom \
-    libmmcamera_ofilm_s5k3l8_eeprom \
-    libmmcamera_ofilm_s5k5e8_eeprom \
+    libmmcamera_onsemi_cat24c16_eeprom \
+    libmmcamera_onsemi_cat24c32_eeprom \
     libmmcamera_optizoom_lib \
-    libmmcamera_ov13855_qtech \
-    libmmcamera_paaf_lib \
+    libmmcamera_ov5670 \
+    libmmcamera_ov5670_eeprom \
+    libmmcamera_ov5670_sunny \
     libmmcamera_pdaf \
     libmmcamera_pdafcamif \
     libmmcamera_ppbase_module \
-    libmmcamera_ppeiscore \
-    libmmcamera_qtech_imx258_eeprom \
-    libmmcamera_qtech_ov13855_eeprom \
-    libmmcamera_qtech_s5k3l8_eeprom \
-    libmmcamera_qtech_s5k5e8_eeprom \
-    libmmcamera_quadracfa \
-    libmmcamera_rohm_brcg064gwz_3_eeprom \
+    libmmcamera_qtech_f3l8yam_eeprom \
+    libmmcamera_qtech_f5670bq_eeprom \
     libmmcamera_s5k3l8 \
+    libmmcamera_s5k3l8_eeprom \
     libmmcamera_s5k3l8_mono \
-    libmmcamera_s5k3l8_ofilm \
-    libmmcamera_s5k3l8_qtech \
-    libmmcamera_s5k3l8_sunny \
-    libmmcamera_s5k5e8_ofilm \
-    libmmcamera_s5k5e8_qtech \
-    libmmcamera_s5k5e8_sunny \
+    libmmcamera_s5k5e8 \
+    libmmcamera_s5k5e8_eeprom \
     libmmcamera_stillmore_lib \
-    libmmcamera_sunny_imx258_eeprom \
-    libmmcamera_sunny_s5k3l8_eeprom \
-    libmmcamera_sunny_s5k5e8_eeprom \
-    libmmcamera_sw2d_lib \
+    libmmcamera_sunny_8865_eeprom \
+    libmmcamera_sunny_q13v06k_eeprom \
+    libmmcamera_sunny_q5v41b_eeprom \
     libmmcamera_sw_tnr \
     libmmcamera_thread_services \
     libmmcamera_tintless_algo \
     libmmcamera_tintless_bg_pca_algo \
     libmmcamera_trueportrait_lib \
     libmmcamera_truly_cma481_eeprom \
-    libmmcamera_truly_cmb433_eeprom \
     libmmcamera_tuning \
     libmmcamera_tuning_lookup \
     libmmcamera_ubifocus_lib \
     libmmjpeg \
     libmmqjpeg_codec \
     libmmqjpegdma \
-    libmpbase \
     libois_lc898122 \
     liboptizoom \
     libqomx_jpegdec \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
-    libremosaic_daemon \
     libseemore \
     libsmwrapper \
     libtrueportrait \
