@@ -325,8 +325,6 @@ PRODUCT_PACKAGES += \
     libjpegdhw \
     libjpegdmahw \
     libjpegehw \
-    libllvd_smore \
-    libllvd_sw_tnr \
     libmmcamera2_c2d_module \
     libmmcamera2_cpp_module \
     libmmcamera2_dcrf \
@@ -342,8 +340,8 @@ PRODUCT_PACKAGES += \
     libmmcamera2_sensor_modules \
     libmmcamera2_stats_algorithm \
     libmmcamera2_stats_modules \
-    libmmcamera_atmel_at24c32e_eeprom \
-    libmmcamera_cac3_lib \
+    libmmcamera2_vpe_module \
+    libmmcamera2_wnr_module \
     libmmcamera_chromaflash_lib \
     libmmcamera_csidtg \
     libmmcamera_dbg \
@@ -414,7 +412,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_sunny_8865_eeprom \
     libmmcamera_sunny_q13v06k_eeprom \
     libmmcamera_sunny_q5v41b_eeprom \
-    libmmcamera_sw_tnr \
     libmmcamera_thread_services \
     libmmcamera_tintless_algo \
     libmmcamera_tintless_bg_pca_algo \
@@ -423,6 +420,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_tuning \
     libmmcamera_tuning_lookup \
     libmmcamera_ubifocus_lib \
+    libmmcamera_vpu_module \
     libmmjpeg \
     libmmqjpeg_codec \
     libmmqjpegdma \
