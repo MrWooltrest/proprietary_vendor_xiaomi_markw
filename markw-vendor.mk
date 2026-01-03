@@ -448,8 +448,8 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-qti \
     com.dsi.ant@1.0-impl \
     consumerir.default \
+    fingerprint.fpc \
     fingerprint.goodix \
-    fingerprint.searchf \
     gatekeeper.msm8953 \
     gxfingerprint.default \
     keystore.msm8953 \

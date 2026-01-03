@@ -10094,6 +10094,33 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "fingerprint.fpc",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/fingerprint.fpc.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libQSEEComAPI",
+                "libc++",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "fingerprint.goodix",
     owner: "xiaomi",
     strip: {
@@ -10115,34 +10142,6 @@ cc_prebuilt_library_shared {
                 "libstdc++_vendor",
                 "libm",
                 "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "fingerprint.searchf",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/fingerprint.searchf.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libQSEEComAPI",
-                "libcutils",
-                "libc++",
-                "libdl",
-                "libc",
-                "libm",
             ],
         },
     },
@@ -11586,8 +11585,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libfpservice.so",
             ],
             shared_libs: [
-                "liblog",
                 "libbinder_shim",
+                "liblog",
                 "libc",
                 "libbinder",
                 "libcutils",
@@ -16821,7 +16820,6 @@ cc_prebuilt_binary {
                 "libc++",
                 "libbase",
                 "libdl",
-                "liblzma",
                 "libstdc++_vendor",
                 "libm",
             ],
