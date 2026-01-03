@@ -12159,7 +12159,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libxml2",
-                "libqti-util-vendor",
+                "libqti-util",
                 "libc++",
                 "libc",
                 "libm",
@@ -12652,35 +12652,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqti-perfd-client-vendor",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqti-perfd-client-vendor.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "vendor.qti.hardware.perf@2.2",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqti-perfd-client",
     owner: "xiaomi",
     strip: {
@@ -12725,45 +12696,17 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libxml2",
-                "libqti-util-vendor",
+                "libqti-util",
                 "libhidlbase",
                 "vendor.qti.hardware.perf@2.0",
                 "libbase",
                 "libthermalclient",
-                "libqti-perfd-client-vendor",
+                "libqti-perfd-client",
                 "libperfconfig",
                 "libperfgluelayer",
                 "libdisplayconfig.qti",
                 "libperfioctl",
                 "vendor.qti.memory.pasrmanager@1.1",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libqti-util-vendor",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqti-util-vendor.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "libxml2",
-                "liblog",
                 "libc++",
                 "libc",
                 "libm",
@@ -17045,6 +16988,7 @@ cc_prebuilt_binary {
                 "vendor.qti.hardware.perf@2.2",
                 "libperfconfig",
                 "libperfgluelayer",
+                "libqti-perfd-client",
                 "libc++",
                 "libc",
                 "libm",
