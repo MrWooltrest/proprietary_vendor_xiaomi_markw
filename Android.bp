@@ -6587,6 +6587,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libllvd_smore.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libdl",
                 "libseemore",
@@ -6614,6 +6615,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libllvd_sw_tnr.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libdl",
                 "libseemore",
@@ -8481,6 +8483,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_le2464c_eeprom.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libmmcamera2_sensor_modules",
                 "libmmcamera_eeprom_util",
